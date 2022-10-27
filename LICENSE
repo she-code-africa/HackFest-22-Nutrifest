@@ -20,12 +20,3 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-background-image: 
-  linear-gradient(to bottom, rgba(245, 246, 252, 0.52), #75135d98),
-  url("./images/lfbi_banner.jpeg"); 
-  background-repeat: no-repeat;
-  background-size: 100%;
-  width: 100%;
-  height: 100%;
-  z-index: 1;
-  color:white;
