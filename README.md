@@ -1,4 +1,4 @@
-## NUTRICOgi
+## NUTRIFEST
  This is a web application that provides educational content on how to resolve malnutrition, healthy eating, 
  hunger, and good health in audio format for marginalized communities.
  
@@ -16,14 +16,14 @@
  ## The TEAM
  This project was worked on by Team Extraordinaire for the She Code Africa Hackfext 2022.
  connect with the talented techies via twitter:
- [Shonowo, Oluwatimilehin Adenike](https://twitter.com/Adenikemie_)
- [Tanitoluwa Adenuga](https://twitter.com/adenugatani)
- [Glory Odeyemi](https://twitter.com/GloryOdeyemi)
- [Emily Mfon Oku](https://twitter.com/mfon_emily)
+ [Shonowo Oluwatimilehin Adenike](https://twitter.com/Adenikemie_),
+ [Tanitoluwa Adenuga](https://twitter.com/adenugatani),
+ [Glory Odeyemi](https://twitter.com/GloryOdeyemi),
+ [Emily Mfon Oku](https://twitter.com/mfon_emily),
 
 
 
- Check out the final app by clicking [here](link to deployed app). (Which gives you this repository published using [Netlify](link to netlify)
+ Check out the final app by clicking [here](https://nutrifest.netlify.app/). (Which gives you this repository published using [Netlify](https://app.netlify.com/)
 
 
 

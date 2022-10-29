@@ -1,7 +1,7 @@
 Amplitude.init({
    "songs":[
       {
-         "name":"Stress Management  Building Awareness",
+         "name":"Stress Management - Building Awareness",
          "url":"./audio/Building_Awareness.mp3",
          "source": "World Health Organization",
          "source_url": "https://www.who.int/publications/i/item/9789240003927"
