@@ -579,10 +579,10 @@ div#amplitude-right div.song:after {
   }
   div#amplitude-player {
     position: relative;
-    top: 480px;
+    top: 420px;
   }
   div#source{
-    bottom: 110px;
+    bottom:65px;
   }
 
 }
@@ -596,12 +596,15 @@ div#amplitude-right div.song:after {
     width: 40%;
     font-size: 20px;
   }
+  div#source{
+    bottom: 110px;
+  }
 }
 
 /* Medium only */
 @media screen and (min-width: 40em) and (max-width: 63.9375em) {
   html {
-    background-size: 915px 1400px;
+    background-size: 919px 1400px;
   }
   div#amplitude-player {
     position: relative;
@@ -609,6 +612,38 @@ div#amplitude-right div.song:after {
   }
   div#source{
     bottom: 60px;
+  }
+}
+@media screen and (width: 540px) {
+  html {
+    background-size: 600px 1000px;
+  }
+  div#amplitude-player {
+    position: relative;
+    top: 500px;
+  }
+  div#source{
+    bottom: 50px;
+  }
+}
+@media screen and (width: 280px) {
+  html {
+    background-size: 300px 800px;
+  }
+  div#amplitude-left div#player-left-bottom div#meta-container {
+    width: 30%;
+    font-size: 20px;
+  }
+  div#amplitude-player {
+    position: relative;
+    top: 400px;
+  }
+  div#amplitude-left{
+    position: relative;
+    bottom: 50px;
+  }
+  div#source{
+    bottom: 50px;
   }
 }
 
@@ -637,6 +672,23 @@ div#amplitude-right div.song:after {
   }
   div#source {
     bottom: 140px;
+  }
+  /* div#share {
+    height: 10px;
+    position: relative;
+    bottom: 400px;
+  } */
+}
+@media screen and (min-width: 74.9376em)  {
+  html {
+    background-size: 1500px 900px;
+  }
+  div#amplitude-player {
+    position: relative;
+    top: 500px;
+  }
+  div#source {
+    bottom: 80px;
   }
   /* div#share {
     height: 10px;
