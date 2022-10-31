@@ -19,7 +19,7 @@ Amplitude.init({
          "source_url": "https://www.who.int/publications/i/item/9789240003927"
       },
       {
-         "name":"Malnutrition Reduction - A Food Bank?",
+         "name":"Malnutrition Reduction - LFBI Introduction?",
          "url":"./audio/LFBI-4-Funmi-edited.mp3",
          "source": "Lagos Food Bank Initiative",
          "source_url": "https://www.who.int/publications/i/item/9789240003927"
@@ -37,8 +37,8 @@ Amplitude.init({
          "source_url": "https://www.who.int/publications/i/item/9789240003927"
       },
       {
-         "name":"Malnutrition Reduction - LFBI Testimonial",
-         "url":"./audio/LFBI-2-woman.mp3",
+         "name":"Malnutrition Reduction - Malnutrition Reduction - LFBI Testimonials 2",
+         "url":"./audio/LFBI-2-woman_edited.mp3",
          "source": "Lagos Food Bank Initiative",
          "source_url": "https://www.who.int/publications/i/item/9789240003927"
       },

@@ -11,19 +11,19 @@
  This project was created from the[WOM.fm](https://wom.fm) template. Alongside the template, technologies used include html, css and vanilla javascript.
 
 ## COLLABORATION
- This Project was achieved in collaboration with a Non Governmental Organization, the first FoodBank in Nigeria,[LagosFoodBank](https://lagosfoodbank.org/), whose objectives are a perfect fit for this project.
+ This Project was achieved in collaboration with a Non Governmental Organization, the first FoodBank in Nigeria,   [LagosFoodBank](https://lagosfoodbank.org/), whose objectives are a perfect fit for this project.
 
  ## The TEAM
- This project was worked on by Team Extraordinaire for the She Code Africa Hackfext 2022.
+ This project was worked on by Team Extraordinaire for the She Code Africa Hackfest 2022.
  connect with the talented techies via twitter:
  [Shonowo Oluwatimilehin Adenike](https://twitter.com/Adenikemie_),
  [Tanitoluwa Adenuga](https://twitter.com/adenugatani),
  [Glory Odeyemi](https://twitter.com/GloryOdeyemi),
- [Emily Mfon Oku](https://twitter.com/mfon_emily),
+ [Emily Mfon Oku](https://twitter.com/mfon_emily)
 
 
 
- Check out the final app by clicking [here](https://nutrifest.netlify.app/). (Which gives you this repository published using [Netlify](https://app.netlify.com/)
+ Check out the final app by clicking [here](https://nutrifest.netlify.app/). This gives you this repository published using [Netlify](https://app.netlify.com/)
 
 
 
