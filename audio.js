@@ -26,13 +26,13 @@ Amplitude.init({
       },
       {
          "name":"Malnutrition Reduction - LFBI Testimonial 1",
-         "url":"./audio/LFBI-1-womam_edited.mp3",
+         "url":"./audio/LFBI-1-woman_edited.mp3",
          "source": "Lagos Food Bank Initiative",
          "source_url": "https://www.who.int/publications/i/item/9789240003927"
       },
       {
          "name":"Malnutrition Reduction- LFBI Testimonial 2",
-         "url":"./audio/LFBI-2-woman_edited.mp3",
+         "url":"./audio/LFBI-2-women_edited.mp3",
          "source": "Lagos Food Bank Initiative",
          "source_url": "https://www.who.int/publications/i/item/9789240003927"
       },
