@@ -19,7 +19,7 @@ Amplitude.init({
          "source_url": "https://www.who.int/publications/i/item/9789240003927"
       },
       {
-         "name":"Malnutrition Reduction - LFBI Introduction?",
+         "name":"Malnutrition Reduction - LFBI Introduction",
          "url":"./audio/LFBI-4-Funmi-edited.mp3",
          "source": "Lagos Food Bank Initiative",
          "source_url": "https://www.who.int/publications/i/item/9789240003927"
