@@ -3,7 +3,7 @@
  hunger, and good health in audio format for marginalized communities.
  
  It is an OpenSource project that provides educational resources on practical ways to achieve SDG goal two---To end 
- hunger, achieve food security and improve nutrition. Read more about SDG goals[here](https://sdgs.un.org/)
+ hunger, achieve food security and improve nutrition. Read more about SDG goals [here](https://sdgs.un.org/)
 
  In a bid to ensure the agenda of  this application is met, it provides content in both English Language and Yoruba Language which are the most common modes of communication in these communities.
 
