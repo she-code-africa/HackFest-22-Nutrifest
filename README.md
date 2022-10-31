@@ -24,7 +24,7 @@ Connect with the talented techies via twitter:
 
 Check out the final app [here](https://nutrifest.netlify.app/). This gives you this repository published using [Netlify](https://app.netlify.com/).
 
-![Nutrifest cover image](https://i.imgur.com/mKd8jOx.png)
+![Nutrifest cover image](https://i.imgur.com/5UUBUpP.png)
 
 
 
