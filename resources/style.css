@@ -582,7 +582,25 @@ div#amplitude-right div.song:after {
     top: 420px;
   }
   div#source{
-    bottom:65px;
+    bottom:50px;
+  }
+  .time-container {
+    font-weight: 400;
+    font-size: 12px;
+    color: #cfd8dc;
+    height: 35px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .time-container span.current-time {
+    width: 10%;
+    float: left;
+    margin-top: 3px;
+  }
+  .time-container span.duration {
+    margin-top: 3px;
+    float: right;
+    width: 10%;
   }
 
 }
@@ -632,7 +650,7 @@ div#amplitude-right div.song:after {
   }
   div#amplitude-left div#player-left-bottom div#meta-container {
     width: 30%;
-    font-size: 18px;
+    font-size: 17px;
   }
   div#amplitude-player {
     position: relative;
@@ -644,6 +662,24 @@ div#amplitude-right div.song:after {
   }
   div#source{
     bottom: 50px;
+  }
+  .time-container {
+    font-weight: 400;
+    font-size: 12px;
+    color: #cfd8dc;
+    height: 35px;
+    width: 70%;
+    margin: 0 auto;
+  }
+  .time-container span.current-time {
+    width: 10%;
+    float: left;
+    margin-top: 3px;
+  }
+  .time-container span.duration {
+    margin-top: 3px;
+    float: right;
+    width: 10%;
   }
 }
 
@@ -673,11 +709,7 @@ div#amplitude-right div.song:after {
   div#source {
     bottom: 140px;
   }
-  /* div#share {
-    height: 10px;
-    position: relative;
-    bottom: 400px;
-  } */
+  
 }
 @media screen and (min-width: 74.9376em)  {
   html {
@@ -690,9 +722,4 @@ div#amplitude-right div.song:after {
   div#source {
     bottom: 80px;
   }
-  /* div#share {
-    height: 10px;
-    position: relative;
-    bottom: 400px;
-  } */
 }
