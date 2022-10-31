@@ -1,16 +1,16 @@
 /* Set the body defaults */
+@import url('https://fonts.googleapis.com/css2?family=family=Nunito:ital,wght@0,200;1,200&display=swap');
 html {
-  font-family: sans-serif;
+  font-family: 'Nunito', sans-serif;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
-  background-image: linear-gradient(#f5f6fc85, #75135d98),
-    url("./images/lfbi-img-2.jpeg");
   background-repeat: no-repeat;
   object-fit: cover;
   width: 100%;
   height: 100%;
   overflow: hidden;
   background-size: 500px 1000px;
+  background-color: #fff;
 }
 
 body {
@@ -46,15 +46,13 @@ body {
   right: 0;
   bottom: 0;
   left: 0;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 15px;
   line-height: 24px;
   color: #555;
   z-index: 1;
 }
 
 a {
-  color: #ccc;
+  color: rgba(176, 55, 93, 0.601);
   text-decoration: none;
   -webkit-tap-highlight-color: transparent;
 }
@@ -94,13 +92,12 @@ div#share {
   background-size: cover;
   margin: auto;
   padding: 10px 0;
-  /* color: #bdd4de; */
 }
 
 div#source {
   font-size: 14px;
   text-align: center;
-  color: rgb(189, 212, 222);
+  color: rgba(176, 55, 93, 0.601);
   position: fixed;
   left: 0px;
   bottom: 80px;
@@ -141,13 +138,14 @@ progress[value]::-moz-progress-bar {
 }
 
 progress[value]::-webkit-progress-value {
-  background-color: #ad4982;
+  background-color: rgb(176, 55, 93);
 }
 
 .time-container {
   font-weight: 400;
   font-size: 12px;
-  color: #cfd8dc;
+  color: rgb(127, 144, 32);
+  font-weight: bold;
   height: 35px;
   width: 100%;
   margin: 0 auto;
@@ -362,7 +360,7 @@ div#amplitude-left
   cursor: pointer;
   border-radius: 30%;
   opacity: 2;
-  background: url("data:image/svg+xml,%3Csvg width='100%25' height='100%25' viewBox='0 0 48 48' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xml:space='preserve' xmlns:serif='http://www.serif.com/' style='fill-rule:%3Bclip-rule:evenodd%3Bstroke-linejoin:round%3Bstroke-miterlimit:2%3B'%3E%3Cg transform='matrix(2.66785 0 0 2.90924 -29.3464 -32.0016)'%3E%3Cg id='_05.100.00-OpenSource-Amplitude' serif:id='05.100.00-OpenSource-Amplitude'%3E%3Cpath id='Shape' d='M16.131 18.254L16.131 12.3C16.131 11.581 15.554 11 14.841 11L12.289 11C11.577 11 11 11.581 11 12.3L11 26.2C11 26.921 11.577 27.499 12.289 27.499L14.841 27.499C15.555 27.499 16.131 26.921 16.131 26.2L16.131 20.246L27.433 27.248C28.291 27.809 28.992 27.399 28.992 26.327L28.992 12.172C28.993 11.104 28.291 10.689 27.433 11.252L16.131 18.254Z' style='fill:rgb(233 178 209)%3B'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  background: url("data:image/svg+xml,%3Csvg width='100%25' height='100%25' viewBox='0 0 48 48' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xml:space='preserve' xmlns:serif='http://www.serif.com/' style='fill-rule:%3Bclip-rule:evenodd%3Bstroke-linejoin:round%3Bstroke-miterlimit:2%3B'%3E%3Cg transform='matrix(2.66785 0 0 2.90924 -29.3464 -32.0016)'%3E%3Cg id='_05.100.00-OpenSource-Amplitude' serif:id='05.100.00-OpenSource-Amplitude'%3E%3Cpath id='Shape' d='M16.131 18.254L16.131 12.3C16.131 11.581 15.554 11 14.841 11L12.289 11C11.577 11 11 11.581 11 12.3L11 26.2C11 26.921 11.577 27.499 12.289 27.499L14.841 27.499C15.555 27.499 16.131 26.921 16.131 26.2L16.131 20.246L27.433 27.248C28.291 27.809 28.992 27.399 28.992 26.327L28.992 12.172C28.993 11.104 28.291 10.689 27.433 11.252L16.131 18.254Z' style='fill:rgb(176, 55, 93)%3B'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
   background-repeat: no-repeat;
   background-size: cover;
   float: right;
@@ -387,7 +385,7 @@ div#amplitude-left
   height: 60px;
   cursor: pointer;
   margin: auto;
-  border: 2px solid rgb(233, 178, 209);
+  border: 2px solid rgb(176, 55, 93);
   border-radius: 50%;
 }
 
@@ -397,7 +395,7 @@ div#amplitude-left
   div#central-control-container
   div#central-controls
   div#play-pause.amplitude-paused {
-  background: url("data:image/svg+xml,%3Csvg width='100%25' height='100%25' viewBox='0 0 80 80' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xml:space='preserve' xmlns:serif='http://www.serif.com/' style='fill-rule:evenodd%3Bclip-rule:evenodd%3Bstroke-linejoin:round%3Bstroke-miterlimit:2%3B'%3E%3Cg transform='matrix(1.33333 0 0 1.33333 0 0)'%3E%3Cg id='_05.100.00-OpenSource-Amplitude' serif:id='05.100.00-OpenSource-Amplitude'%3E%3Cg id='HD_05.100.00-521Website_OpenSource-Amplitude'%3E%3Cg id='Lead-in'%3E%3Cg id='Player'%3E%3Cg id='Controllers-Status-Info' serif:id='Controllers/Status/Info'%3E%3Cg id='Controls'%3E%3Cg id='Play-Pause' serif:id='Play/Pause'%3E%3Cg id='Oval-1'%3E%3Ccircle cx='30' cy='30' r='30' style='fill:rgb(123 150 71)%3B'/%3E%3Cpath id='Play' d='M43.625 29.803L23.646 17.426C22.189 16.474 21 17.173 21 18.988L21 43.011C21 44.823 22.188 45.529 23.646 44.573L43.625 32.198C43.625 32.198 44.336 31.698 44.336 31.001C44.336 30.302 43.625 29.803 43.625 29.803Z' style='fill:white%3B'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  background: url("data:image/svg+xml,%3Csvg width='100%25' height='100%25' viewBox='0 0 80 80' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xml:space='preserve' xmlns:serif='http://www.serif.com/' style='fill-rule:evenodd%3Bclip-rule:evenodd%3Bstroke-linejoin:round%3Bstroke-miterlimit:2%3B'%3E%3Cg transform='matrix(1.33333 0 0 1.33333 0 0)'%3E%3Cg id='_05.100.00-OpenSource-Amplitude' serif:id='05.100.00-OpenSource-Amplitude'%3E%3Cg id='HD_05.100.00-521Website_OpenSource-Amplitude'%3E%3Cg id='Lead-in'%3E%3Cg id='Player'%3E%3Cg id='Controllers-Status-Info' serif:id='Controllers/Status/Info'%3E%3Cg id='Controls'%3E%3Cg id='Play-Pause' serif:id='Play/Pause'%3E%3Cg id='Oval-1'%3E%3Ccircle cx='30' cy='30' r='30' style='fill:rgb(127 144 32)%3B'/%3E%3Cpath id='Play' d='M43.625 29.803L23.646 17.426C22.189 16.474 21 17.173 21 18.988L21 43.011C21 44.823 22.188 45.529 23.646 44.573L43.625 32.198C43.625 32.198 44.336 31.698 44.336 31.001C44.336 30.302 43.625 29.803 43.625 29.803Z' style='fill:white%3B'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 }
 
 div#amplitude-left
@@ -406,7 +404,7 @@ div#amplitude-left
   div#central-control-container
   div#central-controls
   div#play-pause.amplitude-playing {
-  background: url("data:image/svg+xml,%3Csvg width='100%25' height='100%25' viewBox='0 0 80 80' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xml:space='preserve' xmlns:serif='http://www.serif.com/' style='fill-rule:evenodd%3Bclip-rule:evenodd%3Bstroke-linejoin:round%3Bstroke-miterlimit:2%3B'%3E%3Cg id='_05.100.00-OpenSource-Amplitude' serif:id='05.100.00-OpenSource-Amplitude' transform='matrix(1 0 0 1 10 10)'%3E%3Cg id='HD_05.100.00-521Website_OpenSource-Amplitude'%3E%3Cg id='Lead-in'%3E%3Cg id='Player'%3E%3Cg id='Controllers-Status-Info' serif:id='Controllers/Status/Info'%3E%3Cg id='Controls'%3E%3Cg id='Play-Pause' serif:id='Play/Pause'%3E%3Cg id='Oval-1'%3E%3Cg transform='matrix(1.33333 0 0 1.33333 -10 -10)'%3E%3Ccircle cx='30' cy='30' r='30' style='fill:rgb(123 150 71)%3B'/%3E%3C/g%3E%3Cpath id='Shape' d='M40.587 16.61L36.257 16.61C35.048 16.61 34.069 17.59 34.069 18.811L34.069 42.403C34.069 43.624 35.048 44.61 36.257 44.61L40.587 44.61C41.8 44.61 42.775 43.624 42.775 42.403L42.775 18.811C42.783 17.595 41.8 16.61 40.587 16.61Z' style='fill:white%3B'/%3E%3Cpath id='Shape1' serif:id='Shape' d='M24.2 16.61L19.872 16.61C18.661 16.61 17.679 17.59 17.679 18.811L17.679 42.403C17.679 43.624 18.661 44.61 19.872 44.61L24.2 44.61C25.411 44.61 26.388 43.624 26.388 42.403L26.388 18.811C26.388 17.595 25.411 16.61 24.2 16.61Z' style='fill:white%3B'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  background: url("data:image/svg+xml,%3Csvg width='100%25' height='100%25' viewBox='0 0 80 80' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xml:space='preserve' xmlns:serif='http://www.serif.com/' style='fill-rule:evenodd%3Bclip-rule:evenodd%3Bstroke-linejoin:round%3Bstroke-miterlimit:2%3B'%3E%3Cg id='_05.100.00-OpenSource-Amplitude' serif:id='05.100.00-OpenSource-Amplitude' transform='matrix(1 0 0 1 10 10)'%3E%3Cg id='HD_05.100.00-521Website_OpenSource-Amplitude'%3E%3Cg id='Lead-in'%3E%3Cg id='Player'%3E%3Cg id='Controllers-Status-Info' serif:id='Controllers/Status/Info'%3E%3Cg id='Controls'%3E%3Cg id='Play-Pause' serif:id='Play/Pause'%3E%3Cg id='Oval-1'%3E%3Cg transform='matrix(1.33333 0 0 1.33333 -10 -10)'%3E%3Ccircle cx='30' cy='30' r='30' style='fill:rgb(127 144 32)%3B'/%3E%3C/g%3E%3Cpath id='Shape' d='M40.587 16.61L36.257 16.61C35.048 16.61 34.069 17.59 34.069 18.811L34.069 42.403C34.069 43.624 35.048 44.61 36.257 44.61L40.587 44.61C41.8 44.61 42.775 43.624 42.775 42.403L42.775 18.811C42.783 17.595 41.8 16.61 40.587 16.61Z' style='fill:white%3B'/%3E%3Cpath id='Shape1' serif:id='Shape' d='M24.2 16.61L19.872 16.61C18.661 16.61 17.679 17.59 17.679 18.811L17.679 42.403C17.679 43.624 18.661 44.61 19.872 44.61L24.2 44.61C25.411 44.61 26.388 43.624 26.388 42.403L26.388 18.811C26.388 17.595 25.411 16.61 24.2 16.61Z' style='fill:white%3B'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 }
 
 div#amplitude-left
@@ -430,7 +428,7 @@ div#amplitude-left
   height: 28px;
   border-radius: 30%;
   cursor: pointer;
-  background: url("data:image/svg+xml,%3Csvg width='100%25' height='100%25' viewBox='0 0 48 48' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xml:space='preserve' xmlns:serif='http://www.serif.com/' style='fill-rule:evenodd%3Bclip-rule:evenodd%3Bstroke-linejoin:round%3Bstroke-miterlimit:2%3B'%3E%3Cg transform='matrix(2.67201 0 0 2.91432 -29.3921 -32.0575)'%3E%3Cg id='_05.100.00-OpenSource-Amplitude' serif:id='05.100.00-OpenSource-Amplitude'%3E%3Cpath id='Shape' d='M27.677 11L25.131 11C24.416 11 23.844 11.58 23.844 12.298L23.844 18.242L12.557 11.251C11.699 10.691 11 11.101 11 12.169L11 26.3C11 27.366 11.699 27.782 12.557 27.219L23.844 20.229L23.844 26.173C23.844 26.893 24.42 27.47 25.131 27.47L27.677 27.47C28.39 27.47 28.964 26.893 28.964 26.173L28.964 12.298C28.965 11.582 28.389 11 27.677 11Z' style='fill:rgb(233 178 209)%3B'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  background: url("data:image/svg+xml,%3Csvg width='100%25' height='100%25' viewBox='0 0 48 48' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xml:space='preserve' xmlns:serif='http://www.serif.com/' style='fill-rule:evenodd%3Bclip-rule:evenodd%3Bstroke-linejoin:round%3Bstroke-miterlimit:2%3B'%3E%3Cg transform='matrix(2.67201 0 0 2.91432 -29.3921 -32.0575)'%3E%3Cg id='_05.100.00-OpenSource-Amplitude' serif:id='05.100.00-OpenSource-Amplitude'%3E%3Cpath id='Shape' d='M27.677 11L25.131 11C24.416 11 23.844 11.58 23.844 12.298L23.844 18.242L12.557 11.251C11.699 10.691 11 11.101 11 12.169L11 26.3C11 27.366 11.699 27.782 12.557 27.219L23.844 20.229L23.844 26.173C23.844 26.893 24.42 27.47 25.131 27.47L27.677 27.47C28.39 27.47 28.964 26.893 28.964 26.173L28.964 12.298C28.965 11.582 28.389 11 27.677 11Z' style='fill:rgb(176, 55, 93)%3B'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -444,8 +442,9 @@ div#amplitude-left div#player-left-bottom div#control-container:after {
 div#amplitude-left div#player-left-bottom div#meta-container {
   text-align: start;
   width: 50%;
-  color: #d5dac9;
-  font-weight: bold;
+  /* color: rgb(127, 144, 32); */
+  color: rgba(176, 55, 93, 0.601);
+  /* font-weight: bold; */
   font-size: 16px;
   line-height: 26px;
   position: relative;
@@ -470,7 +469,6 @@ div#amplitude-left
   color: #bdd4de;
   font-size: 14px;
   font-weight: 700;
-  font-family: "Open Sans", sans-serif;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -537,7 +535,7 @@ div#amplitude-right div.song span.song-duration {
   width: 55px;
   text-align: center;
   line-height: 45px;
-  color: #bdd4de;
+  color: rgb(127, 144, 32);
   font-size: 16px;
   font-weight: 500;
 }
@@ -587,7 +585,7 @@ div#amplitude-right div.song:after {
   .time-container {
     font-weight: 400;
     font-size: 12px;
-    color: #cfd8dc;
+    color: rgb(127, 144, 32);
     height: 35px;
     width: 100%;
     margin: 0 auto;
@@ -666,7 +664,7 @@ div#amplitude-right div.song:after {
   .time-container {
     font-weight: 400;
     font-size: 12px;
-    color: #cfd8dc;
+    color: rgb(127, 144, 32);
     height: 35px;
     width: 70%;
     margin: 0 auto;
